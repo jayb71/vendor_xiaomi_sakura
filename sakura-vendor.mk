@@ -1338,7 +1338,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     QtiTelephonyService \
     atfwd \
-    datastatusnotification \
     embms \
     uceShimService \
     ims \
