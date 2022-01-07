@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sakura/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/xiaomi/sakura/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/xiaomi/sakura/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
-    vendor/xiaomi/sakura/proprietary/etc/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodix_firmware.bin \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/xiaomi/sakura/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/xiaomi/sakura/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/sakura/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
@@ -305,6 +305,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sakura/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
     vendor/xiaomi/sakura/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
     vendor/xiaomi/sakura/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.b00 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.b01 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.b02 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.b03 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.b04 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.b05 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.b06 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/fpctzapp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/fpctzapp.mdt \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.b00 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.b01 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.b02 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.b03 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.b04 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.b05 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.b06 \
+    vendor/xiaomi/sakura/proprietary/vendor/firmware_fp/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware_fp/goodixfp.mdt \
     vendor/xiaomi/sakura/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/sakura/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/sakura/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
