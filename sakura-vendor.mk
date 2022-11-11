@@ -1344,13 +1344,13 @@ PRODUCT_PACKAGES += \
     FingerprintExtensionService \
     IWlanService \
     TimeService \
-    PowerOffAlarm \
     QtiTelephonyService \
     atfwd \
     embms \
     uceShimService \
     ims \
     qcrilmsgtunnel \
+    PowerOffAlarm \
     dpmserviceapp \
     audiosphere \
     com.qti.snapdragon.sdk.display \
@@ -1373,7 +1373,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory-V2.0-java \
     vendor.qti.data.factory-V2.1-java \
     vendor.qti.data.slm-V1.0-java \
-    vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.data.cne.internal.api-V1.0-java \
     vendor.qti.hardware.data.cne.internal.constants-V1.0-java \
     vendor.qti.hardware.data.connection-V1.0-java \
@@ -1389,6 +1388,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency-V2.0-java \
     com.qti.dpmframework \
     dpmapi \
-    manifest_android.hardware.drm@1.3-service.widevine \
     android.hardware.gnss@2.0-service-qti \
+    manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@3.0-service
